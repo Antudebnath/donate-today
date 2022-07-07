@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.section1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.658)), url("./image/donation0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1 div {
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.section1 p {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.donate-btn {
+    padding: 15px;
+    font-size: 18px;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+/* ***********************************Section 2****************************************** */
+
+.section2 {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section21 {
+    width: 50vw;
+}
+
+.section21 p {
+    margin-top: 3%;
+}
+
+.section22 button {
+    padding: 30px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(87, 80, 80);
+    border-radius: 5px;
+    border: none;
+}
+
+#btn2 {
+    border: 1px solid tomato;
+    background-color: rgb(245, 191, 181);
+    color: tomato;
+}
+
+.section23 input {
+    width: 30vw;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid rgb(80, 67, 67);
+    font-size: 20px;
+}
+
+
+/* *********************************section3************************* */
+
+.section3 {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section31 {
+    width: 50vw;
+    text-align: center;
+}
+
+.section32 {
+    display: flex;
+    column-gap: 15px;
+}
+
+.card {
+    width: 200px;
+    background-color: rgb(186, 186, 204);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#shelter {
+    background-color: pink;
+}
+
+#education {
+    background-color: blanchedalmond;
+}
+
+
+/* ****************************Section 4 */
+.section4 {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section41 {
+    width: 50vw;
+}
+
+.section42 {
+    display: flex;
+    padding: 4% 10%;
+    background-color: rgb(238, 223, 221);
+    border-radius: 5px;
+}
+
+.section42 input {
+    background-color: rgb(189, 182, 182);
+    border: none;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.section42 button {
+    background-color: tomato;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* ******************************Footer************* */
+
+footer {
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2 {
+    color: tomato;
+}
+
+footer div {
+    text-align: center;
+}
+
+/* ******************************Gallery********************* */
+
+.gallery {
+    width: 100vw;
+    height: auto;
+    text-align: center;
+}
+
+.image {
+
+    display: flex;
+    column-gap: 15px;
+    row-gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gallery img {
+    display: block;
+    width: 400px;
+    height: 300px;
+    border: 5px solid salmon;
+    border-radius: 5px;
+}
